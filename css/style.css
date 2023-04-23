@@ -1,3 +1,6 @@
+/* Mobile styles (up to 480px) */
+
+
 /* Styling the header*/
 header{
   display: inline-block;
@@ -45,7 +48,7 @@ nav li {
 nav a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
   transition: all 0.3s;
   padding:0 10px;
@@ -66,19 +69,19 @@ main{
   position: relative;
 }
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   color: #333;
   margin-bottom: 30px;
   padding: 10px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 30px;
   padding: 10px;
   color: #333;
 }
 p {
-  font-size: 16px;
+  font-size: 30px;
   margin-bottom: 10px;
   color: #555;
   padding: 10px;
@@ -97,7 +100,7 @@ li {
  }
 .dp{
   position: relative;
-  width: 40%;
+  width: 80%;
   float: left;
   margin-left:20px;
   }
@@ -126,7 +129,7 @@ li {
 .text {
   white-space: nowrap; 
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -144,7 +147,7 @@ section{
   display: block;
   position:relative;
   float: left;
-  width: 50%;
+  width: 80%;
   background-color:#fff;
   margin-left:30px;
   padding: 20px;
@@ -271,4 +274,103 @@ section{
   background-color: #0077b5;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  nav a {
+  font-size: 30px;
+  }
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  nav a {
+  font-size: 22px;
+  }
+  .dp{
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-left:20px;
+  }
+  .text {
+  font-size: 20px;
+  }
+  section{
+  width: 50%;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  nav a {
+  font-size: 22px;
+  }
+  .dp{
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-left:20px;
+  }
+  .text {
+  font-size: 20px;
+  }
+  section{
+  width: 50%;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  header h1{
+  font-size:120px;
+  }
+  nav a {
+  font-size: 40px;
+  }
+  h1 {
+    font-size: 60px;
+  }  
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .dp{
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-left:20px;
+  }
+  .text {
+  font-size: 40px;
+  }
+  section{
+  width: 50%;
+  }
+}
 
