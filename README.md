@@ -1,2 +1,2 @@
-# project3
-Responsive website and google maps api
+# Project-2
+Resume Website With CSS
