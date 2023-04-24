@@ -469,7 +469,7 @@
     margin-top: 30px;
   }
   .skill {
-    flex-basis: calc(50% - 100px);
+    flex-basis: calc(50% - 60px);
     margin-bottom: 30px;
     background-color: #f0f0f0;
     padding: 20px;
