@@ -399,7 +399,7 @@
     }   
   .dp{
     position: relative;
-    width: 30%;
+    width: 25%;
     float: left;
     margin-left:20px;
     padding: 20px;
@@ -450,7 +450,7 @@
     width: 60%;
     background-color:#fff;
     margin-left:20px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
