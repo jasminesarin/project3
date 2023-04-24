@@ -179,7 +179,7 @@
     margin-top: 30px;
   }
   .skill {
-    flex-basis: calc(100% - 100px);
+    flex-basis: calc(100% - 50px);
     margin-bottom: 30px;
     background-color: #f0f0f0;
     padding: 20px;
