@@ -319,7 +319,7 @@ section{
 }
 
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1440px){
   h2 {
     font-size: 20px;
   }
@@ -344,21 +344,15 @@ section{
 }
 
 /* Media Query for Large screens */
-@media (min-width: 1281px) {
-  header h1{
-  font-size:120px;
-  }
+@media (min-width: 1440px) {
   nav a {
-  font-size: 40px;
+  font-size: 30px;
   }
-  h1 {
-    font-size: 60px;
-  }  
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   p {
-    font-size: 30px;
+    font-size: 24px;
   }
   .dp{
   position: relative;
@@ -367,7 +361,7 @@ section{
   margin-left:20px;
   }
   .text {
-  font-size: 40px;
+  font-size: 30px;
   }
   section{
   width: 50%;
