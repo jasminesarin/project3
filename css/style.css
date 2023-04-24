@@ -254,6 +254,7 @@
    font-size: 20px;
   }
   .social-button {
+    position:relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,6 +268,7 @@
     color: #fff;
     background-color: #333;
     text-decoration: none;
+    padding: 5px;
   }
   .social-button:hover {
     background-color: #666;
@@ -544,6 +546,7 @@
    font-size: 20px;
   }
   .social-button {
+    position:relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -557,6 +560,7 @@
     color: #fff;
     background-color: #333;
     text-decoration: none;
+    padding:5px;
   }
   .social-button:hover {
     background-color: #666;
