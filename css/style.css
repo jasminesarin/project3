@@ -260,7 +260,7 @@
    font-size: 20px;
   }
   .social-button {
-    position:relative;
+    /*position:relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -383,12 +383,12 @@
     padding: 10px;
     color: #333;
   }
-	h3{
-		font-size: 20px;
-		margin-bottom: 30px;
-		padding: 10px;
-		color: #333;
-	}
+  h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #333;
+  }
   p {
     font-size: 20px;
     margin-bottom: 10px;
@@ -558,7 +558,7 @@
    font-size: 20px;
   }
   .social-button {
-    position:relative;
+    /*position:relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -848,7 +848,7 @@
    font-size: 20px;
   }
   .social-button {
-    position:relative;
+    /*position:relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1134,7 +1134,7 @@
    font-size: 20px;
   }
   .social-button {
-    position:relative;
+    /*position:relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1421,7 +1421,7 @@
    font-size: 20px;
   }
   .social-button {
-    position:relative;
+    /*position:relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
