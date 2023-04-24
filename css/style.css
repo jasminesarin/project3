@@ -295,7 +295,7 @@
 
 
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
      /* Styling the header*/
   header{
     display: inline-block;
@@ -399,7 +399,7 @@
     }   
   .dp{
     position: relative;
-    width: 80%;
+    width: 30%;
     float: left;
     margin-left:20px;
     padding: 20px;
@@ -542,16 +542,16 @@
    align-items: center;
   }
   .social-media h2{
-   font-size: 24px;
+   font-size: 20px;
   }
   .social-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 120px;
-    margin: 0 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0 15px;
     border-radius: 50%;
     font-size: 16px;
     text-align: center;
@@ -576,7 +576,7 @@
 
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
   h2 {
     font-size: 20px;
   }
